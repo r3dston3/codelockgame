@@ -5,7 +5,7 @@ The `brute*.py` files are the solution to the task; they are written in differen
 
 # Settings
 
-If you want to try the task yourself, you can run the script using python, if you want to see how the program selects the password, use the following commands:
+If you want to try the task yourself, you can run the script using python, if you want to see how the code brute the password, use the following commands:
 
 ## Initialization
 
@@ -13,7 +13,7 @@ If you want to try the task yourself, you can run the script using python, if yo
 
 ### Brute Forcing
 
-For some reason, the code written using the pwntoolslib library does not work correctly (when changing the r.recivline() parameter, the code ends up in an infinite loop), so the only way to get the flag using this library in my case is to use DEBUG :
+For some reason, the code written using the pwntools library does not work correctly (when changing the r.recivline() parameter, the code ends up in an infinite loop), so the only way to get the flag using this library in my case is to use DEBUG :
 
 `python3 brute_pwntoolslib.py DEBUG`
 
